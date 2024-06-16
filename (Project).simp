@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="13.30" multi-file="no" uid="simp790bac2e19b1476aa5434dd5637309b5">
+  <meta>
+    <name>(Project)</name>
+    <authors> Лэ$ька</authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="erd-entity" type="Entity" />
+        <value>1</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="group" type="Group" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="erd-entity" type="Entity" />
+        <value>2</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.Other.EntityRelationshipDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields />
+  </counters>
+  <alias-groups />
+  <management uid="md-23aec589bab6467092fef4a3c5fd47eb" name="" task-id-sequence="0">
+    <persons>
+      <person id="">
+        <first-name />
+        <last-name>Лэ$ька</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-3c5f1f53d037423ca918f7cdf29bcb4c" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types />
+  </types>
+  <items />
+  <models>
+    <model id="pe8ab82d26f5b43cfadfa0bd846fb0ba2_917005555" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>06/16/2024 22:23:52</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="entity-relationship" id="pfadd8f8392cb4ac4849171df2b2b9b4c_521720459" name="EntityRelationshipDiagram1" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>06/16/2024 22:23:52</creation-date>
+          <change-date>06/16/2024 22:24:00</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="5530bc7a66064990b74ab4ab84c53672" cid="ENT001" type="erd-entity" name="Entity1" style-class="" change-tracking-state="added" creator="" creation-date="06/16/2024 22:24:00">
+            <entity description="" />
+            <attributes />
+            <indexes />
+          </item>
+        </abstract-items>
+        <layer id="4c20d8b48e014f28b6f247bd7f1ee848" name="Default" visible="true" enabled="true" locked="false">
+          <item id="5530bc7a66064990b74ab4ab84c53672" iid="6670ab18cbce4585badd8c717d4bd0aa" creation-date="06/16/2024 22:24:00" order-index="0" type="entity">
+            <layout ax="369" ay="44" awidth="140" aheight="160" x="369" y="44" width="140" height="160" />
+            <erd-entity show-nullability="true" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>
