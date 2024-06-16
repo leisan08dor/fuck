@@ -77,7 +77,7 @@ namespace demo1
             if(cb_status.SelectedItem.ToString() == "Выполнено")
             {
                 MessageBox.Show($"Заявка: {numder} выполнена!");
-                QR 
+                
                 return;
 
             }
