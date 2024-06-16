@@ -172,5 +172,11 @@
   <ItemGroup>
     <None Include="Resources\Лопушок.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\UnitTestProject2\UnitTestProject2.csproj">
+      <Project>{a2232661-a0b7-4ac0-ada9-bc37c2977db4}</Project>
+      <Name>UnitTestProject2</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
